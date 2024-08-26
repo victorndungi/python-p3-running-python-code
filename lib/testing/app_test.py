@@ -23,7 +23,7 @@ class TestAppPy:
 
     def test_prints_hello_world(self):
         '''
-        prints "Hello World! Pass this test, please."
+        print ("Hello World! Pass this test, please.")
         '''
         captured_out = io.StringIO()
         sys.stdout = captured_out
